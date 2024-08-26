@@ -15,7 +15,7 @@
     <title>Alteração do fluxo de caixa</title>
 </head>
 <body>
-    <form action="altera_caixaExe.php" method="post">
+    <form action="altera_caixa_Exe.php" method="post">
         <fieldset>
         <legend>Ateração do fluxo de caixa</legend>
         <div>
