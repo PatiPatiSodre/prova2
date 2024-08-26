@@ -18,9 +18,9 @@
 <body>
     <h1> Alteração do fluxo de caixa</h1>
     <?php
-        echo "<p>Id: $id</p>";
-        echo "<p>Data: $data</p>";
-        echo "<p>Tipo: $tipo</p>";
+        echo "<p>Id:     $id</p>";
+        echo "<p>Data:   $data</p>";
+        echo "<p>Tipo:   $tipo</p>";
         $sql = "UPDATE fluxo_caixa SET data = '$data', tipo  = '$tipo', valor  = '$valor', historico  = '$historico', cheque = '$cheque' WHERE id = $id";
         $result = mysqli_query($con, $sql);
 
